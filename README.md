@@ -14,3 +14,5 @@ In this project, the number of packets to be transferred from each node to anoth
 As mentioned earlier, the existing DSDV routing protocol has the fixed time value of updating routing table. For example, we could easily found that the default time value of periodic updates is 15 seconds in NS3 environment.
 
 It does not matter when there is a lot of traffic in network. However, unnecessary updates are made and control overheads are increased when there is no traffic.
+
+![ns1](https://user-images.githubusercontent.com/34092568/50624934-db7d9780-0f67-11e9-8370-ea81cce8b36a.png)

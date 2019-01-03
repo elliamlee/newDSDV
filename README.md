@@ -15,7 +15,7 @@ As mentioned earlier, the existing DSDV routing protocol has the fixed time valu
 
 It does not matter when there is a lot of traffic in network. However, unnecessary updates are made and control overheads are increased when there is no traffic.
 
-<center><img src="https://user-images.githubusercontent.com/34092568/50624934-db7d9780-0f67-11e9-8370-ea81cce8b36a.png" width="400"></center>
+<p align="center"><img src="https://user-images.githubusercontent.com/34092568/50624934-db7d9780-0f67-11e9-8370-ea81cce8b36a.png"></p>
 
 To overcome the problem of DSDV, dynamic time to update routing table according to the presence or absence of data packets is preferable which has been proposed in Adaptive Destination Sequenced Distance Vector (A-DSDV). In each node, A-DSDV will perform following steps:
 

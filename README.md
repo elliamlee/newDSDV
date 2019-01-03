@@ -32,3 +32,5 @@ For example, suppose that a node counts the number of updates that occur periodi
 ### Declaring variable
 
 The most important part of A-DSDV is counting the number of periodic updates and data packets to be sent. To count how many packets are coming in while there are two updates, the first thing I did was make the variable in ‘dsdv-routing-protocol.h’. The variable for periodic updates is called as ‘pupdate_cnt’ and the other which is needed to count the packets is named as ‘data_cnt’. Also, for initialize these variables, I mentioned those in ‘dsdv-routing-protocol.cc’. This modification of code is shown in figure 3 and figure 4.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/34092568/50625277-66f82800-0f6a-11e9-95e6-bb1cb67982d9.png"></p>

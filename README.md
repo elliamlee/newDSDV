@@ -9,3 +9,8 @@ Ad-hoc routing protocols usually consists of two parts: a table-driven protocol 
 In the existing DSDV routing protocol, the time at which the routing table is periodically updated at each node is fixed to a constant value. This setting is always constant regardless of the presence or absence of data packets that must be transmitted from one node to another. Therefore, this protocol has a problem that it cannot appropriately deal with the situation of the network because it uses a fixed value.
 
 In this project, the number of packets to be transferred from each node to another node will be recorded to solve the problem. Based on this records, a new method to dynamically implement the time to periodic update of routing table is proposed and the performance of this method will be shown through simulations.
+
+## A New Approach to Improve Performance of DSDV Algorithm
+As mentioned earlier, the existing DSDV routing protocol has the fixed time value of updating routing table. For example, we could easily found that the default time value of periodic updates is 15 seconds in NS3 environment.
+
+It does not matter when there is a lot of traffic in network. However, unnecessary updates are made and control overheads are increased when there is no traffic.

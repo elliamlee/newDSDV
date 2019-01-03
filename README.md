@@ -39,3 +39,5 @@ The most important part of A-DSDV is counting the number of periodic updates and
 
 To count how many packets are coming, I firstly found the part which the packets from other nodes are enqueued and count the number. Also, I checked the how many periodic updates of routing table are occurring through the source code. I just added the code on the existing source code, ‘dsdv-routing-protocol.cc’. The additions are shown in figure 5 and 6.
 
+<p align="center"><img src="https://user-images.githubusercontent.com/34092568/50625314-b63e5880-0f6a-11e9-9b43-977acf550798.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/34092568/50625315-b6d6ef00-0f6a-11e9-819b-96b0c7cf0236.png"></p>

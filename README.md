@@ -19,7 +19,8 @@ It does not matter when there is a lot of traffic in network. However, unnecessa
 
 To overcome the problem of DSDV, dynamic time to update routing table according to the presence or absence of data packets is preferable which has been proposed in Adaptive Destination Sequenced Distance Vector (A-DSDV). In each node, A-DSDV will perform following steps:
 
-1 	At first, node X checks the number of periodic updates and the number of data packets to be transferred.
+  1 At first, node X checks the number of periodic updates and the number of data packets to be transferred.
+
 
 2 	When the node X get more than three data packets to send while the periodic updates happened twice, the time interval between periodic update will be decreased.
 

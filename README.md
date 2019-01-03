@@ -27,4 +27,4 @@ For example, suppose that a node counts the number of updates that occur periodi
 
 ![ns2](https://user-images.githubusercontent.com/34092568/50625017-6e1e3680-0f68-11e9-8060-d888df832bf4.png){: width="70" height="70"}
 
-<img src="https://user-images.githubusercontent.com/34092568/50625017-6e1e3680-0f68-11e9-8060-d888df832bf4.png" width="400">
+<center><img src="https://user-images.githubusercontent.com/34092568/50625017-6e1e3680-0f68-11e9-8060-d888df832bf4.png" width="400"></center>

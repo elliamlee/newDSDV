@@ -46,4 +46,6 @@ To count how many packets are coming, I firstly found the part which the packets
 
 This is the main part of A-DSDV. In A-DSDV, the algorithm will check only two periodic updates. Thus, in the first check, it shows how many packets have been received up to this point, and this is the first check. The time interval is not changed and is like before. In the second periodic check, if the data count exceeds the threshold, the interval will be reduced. Also, if the data count does not exceeds the threshold, the interval will be increased. Compared to the existing source code, a new method could dynamically implement the time to periodic update of routing table.
 
-<p align="center"><img src="
+<p align="center"><img src="https://user-images.githubusercontent.com/34092568/50625371-159c6880-0f6b-11e9-87e6-07089db72fff.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/34092568/50625372-159c6880-0f6b-11e9-9b32-ee7e119b900e.png"></p>
+

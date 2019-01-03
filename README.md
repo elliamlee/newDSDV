@@ -16,3 +16,13 @@ As mentioned earlier, the existing DSDV routing protocol has the fixed time valu
 It does not matter when there is a lot of traffic in network. However, unnecessary updates are made and control overheads are increased when there is no traffic.
 
 ![ns1](https://user-images.githubusercontent.com/34092568/50624934-db7d9780-0f67-11e9-8370-ea81cce8b36a.png)
+
+To overcome the problem of DSDV, dynamic time to update routing table according to the presence or absence of data packets is preferable which has been proposed in Adaptive Destination Sequenced Distance Vector (A-DSDV). In each node, A-DSDV will perform following steps:
+
+1 	At first, node X checks the number of periodic updates and the number of data packets to be transferred.
+
+2 	When the node X get more than three data packets to send while the periodic updates happened twice, the time interval between periodic update will be decreased.
+
+3 	When the node X get less than three data packets to send while the periodic updates happened twice, the time interval between periodic update will be increased.
+
+For example, suppose that a node counts the number of updates that occur periodically and the number of data packets to be sent. Also, the default time interval is 5 seconds and data packets are checked every 10 seconds. At 10 seconds, it the number of data packets to be transferred does not exceed two, the time interval will increase to 7.5 seconds, which is 3/2 times of 5 seconds. In the opposite case, the interval will be reduced as 2.5 seconds, which is 1/2 times of 5 seconds. As a result, A-DSDV reduces unnecessary updates to a great extent when there is not much traffic. This overall flowchart of A-DSDV is shown step by step in Figure 2.

@@ -26,3 +26,8 @@ To overcome the problem of DSDV, dynamic time to update routing table according 
 For example, suppose that a node counts the number of updates that occur periodically and the number of data packets to be sent. Also, the default time interval is 5 seconds and data packets are checked every 10 seconds. At 10 seconds, it the number of data packets to be transferred does not exceed two, the time interval will increase to 7.5 seconds, which is 3/2 times of 5 seconds. In the opposite case, the interval will be reduced as 2.5 seconds, which is 1/2 times of 5 seconds. As a result, A-DSDV reduces unnecessary updates to a great extent when there is not much traffic. This overall flowchart of A-DSDV is shown step by step in Figure 2.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/34092568/50625017-6e1e3680-0f68-11e9-8060-d888df832bf4.png"></p>
+
+##	Modification of source code
+
+### Declaring variable
+
